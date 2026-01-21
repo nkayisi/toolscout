@@ -39,7 +39,7 @@ const itemVariants = {
 
 export function Hero({ onSearchClick }: HeroProps) {
     return (
-        <section className="relative min-h-[90vh] flex flex-col items-center justify-center px-6 overflow-hidden vertical-lines">
+        <section className="relative min-h-[90vh] py-20 flex flex-col items-center justify-center px-6 overflow-hidden vertical-lines">
             {/* Background grid pattern */}
             <div className="absolute inset-0 grid-pattern opacity-60" />
 
