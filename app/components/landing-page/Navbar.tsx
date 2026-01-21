@@ -27,14 +27,17 @@ export function Navbar({ onSearchClick }: NavbarProps) {
 
                     {/* Navigation links */}
                     <div className="hidden md:flex items-center gap-8">
-                        <Link href="#what" className="text-sm text-muted hover:text-foreground transition-colors">
+                        <Link href="/" className="text-sm text-muted hover:text-foreground transition-colors">
+                            Home
+                        </Link>
+                        <Link href="/#what" className="text-sm text-muted hover:text-foreground transition-colors">
                             About
                         </Link>
-                        <Link href="#categories" className="text-sm text-muted hover:text-foreground transition-colors">
+                        <Link href="/#categories" className="text-sm text-muted hover:text-foreground transition-colors">
                             Categories
                         </Link>
-                        <Link href="#submit" className="text-sm text-muted hover:text-foreground transition-colors">
-                            Submit
+                        <Link href="/tools" className="text-sm text-muted hover:text-foreground transition-colors">
+                            Tools
                         </Link>
                     </div>
 

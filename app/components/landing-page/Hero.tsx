@@ -78,16 +78,6 @@ export function Hero({ onSearchClick }: HeroProps) {
                 initial="hidden"
                 animate="visible"
             >
-                {/* Badge */}
-                <motion.div variants={itemVariants} className="flex justify-center mb-8">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-card-border bg-card-bg/50 backdrop-blur-sm">
-                        <span className="relative flex h-2 w-2">
-                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
-                            <span className="relative inline-flex rounded-full h-2 w-2 bg-accent"></span>
-                        </span>
-                        <span className="text-sm text-muted code-block">v1.0 — Now in beta</span>
-                    </div>
-                </motion.div>
 
                 {/* Main headline */}
                 <motion.h1 variants={itemVariants} className="text-center text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl">
